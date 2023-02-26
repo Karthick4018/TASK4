@@ -47,12 +47,9 @@ header h1{
     color:black ;
     font-weight: 600;
 }
-.gg{
+.gg img{
     width: 100vw;
     height: 100vh;
-    background: url(images/back.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .ww{
     width: 100vw;
@@ -69,7 +66,7 @@ header h1{
     border-color: aqua;
     margin: 0% auto;
 }
-img{
+.ssw{
     width: 100%;
     height: 100%;
     border: 3px solid aqua;
@@ -132,7 +129,7 @@ img{
   .fa:hover{
     opacity: 0.7;
   }
-  img:hover{
+  .ssw:hover{
     cursor: pointer;
     opacity: 0.5;
   }
@@ -186,6 +183,18 @@ img{
         flex-direction: column;
         justify-content: center;
         justify-content: space-around;
+    }
+    .ann{
+        overflow: auto;
+    }
+    .contain{
+        overflow: auto;
+    }
+    .gg img{
+        max-width: 600px;
+        height: auto;
+        
+
     }
 
     
